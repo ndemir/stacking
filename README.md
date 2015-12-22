@@ -6,6 +6,12 @@
 Stacking, also known as Stacked Generalization, is an ensemble method where the goal is to combine the output of
 machine learning algorithms with another machine learning algorithm.
 
+##The Goal
+
+Use this project as a template for your stacking implementation. In this project, StackingClassifier 
+only provides fit and predict_proba functions, and works with binary [0, 1] labels. predict_proba function
+returns the probability of label 1. To learn how to use, see test/test_stackingclassifier.py
+
 ##Simple Explanation About The Project 
 
 StackingClassifier class acts as a proxy class that connects to one of two classes
